@@ -1,0 +1,31 @@
+table{
+    width: 50%;
+    margin: auto;
+    }
+
+    /*Para que tenga bordes la tabla y las celdas*/
+    table , th,td{
+        
+    border-bottom: solid 1px #ddd;
+    border-collapse: collapse;
+}
+
+/*Agregamos color al encabezado de la tabla*/
+thead{
+   background-color: cornflowerblue;
+   color: white;
+   font-weight: 800;
+
+}
+/*alineamos el texto de la tabla */
+td{
+text-align: right;
+padding: 0.2em;
+
+}
+
+/*aplicamos relleno*/
+th{
+
+    padding: 0.5em;
+}
